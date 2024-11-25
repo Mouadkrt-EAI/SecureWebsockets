@@ -30,5 +30,5 @@ wss.on('connection', (ws) => {
 
 // Start the HTTPS server on port 8443
 httpsServer.listen(8443, '0.0.0.0', () => {
-    console.log('Secure WebSocket server is running on wss://localhost:8443');
+    console.log('Secure WebSocket server is running on wss://0.0.0.0:8443');
 });
